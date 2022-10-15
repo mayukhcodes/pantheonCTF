@@ -1,16 +1,4 @@
-/*****************************************
 
-WAKE UP, NEO...
-
-Author: Jack Rugile;
-
-MODS by Victor Casals - VSDigital
-
-* Multiple message
-* Simulation of human typing
-* Cursors
- 
-/*****************************************/
 var c = document.createElement('canvas');
 var ctx = c.getContext('2d');
 var cw = c.width = 400;
@@ -59,6 +47,20 @@ var page=0;
     "█"
     
   );
+
+
+
+
+var format = "pantheonCTF"
+var flag = "YoU_ScRiPt_kiDDo"
+
+var message = format+"{"+flag+"}"
+
+//alert(message) 
+
+
+
+
 
 
 
